@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bimgraph"
+version = "0.1.0"
+description = "A topological graph library for MEPT spatial layouts."
+dependencies = [
+    "topologicpy>=0.9.58",
+    "plotly",
+]
+
+# Explicitly tell setuptools where to look in a flat layout
+[tool.setuptools]
+packages = ["bimgraph"]
