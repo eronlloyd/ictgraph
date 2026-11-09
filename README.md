@@ -1,2 +1,2 @@
-# bimgraph
-A graph-based computational design library for BIM design and analysis using TopologicPy.
+# ictgraph
+A graph-based computational design library for ICT design and analysis using TopologicPy.
